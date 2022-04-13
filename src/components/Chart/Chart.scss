@@ -1,0 +1,13 @@
+@import '../../global.scss';
+.chart{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 500px;
+
+    @include mobile{
+        margin-top: 10px;
+        display: flex;
+        height: 250px;
+    }
+}

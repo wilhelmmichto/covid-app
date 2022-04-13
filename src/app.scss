@@ -1,0 +1,27 @@
+@import './global.scss';
+.app{
+    background-color: rgb(250,250,250);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .image{
+            width: 370px;
+            margin-bottom: -50px;
+            @include mobile {
+                width: 300px;
+                margin-bottom: -50px;
+            }
+
+        }
+
+        @include mobile {
+            justify-content: space-around;
+
+
+        }
+ 
+}
+
