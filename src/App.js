@@ -28,6 +28,7 @@ this.setState({data: fetchedData,country:country})
       <Cards data={data}/>
       <CountryPicker handleCountryChange={this.handleCountryChange}/>
       <Charts data={data} country={country}/>
+      <a href="https://github.com/wilhelmmichto"><span>Check out my github</span></a>
     </div>    )
   }
 }

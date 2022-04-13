@@ -2,6 +2,10 @@
 .cards {
     margin: 50px 0;
     margin-bottom: -1px;
+    @include mobile{
+        margin-bottom: 10px;
+        
+    }
 
     .grid {
         display: flex;
@@ -25,6 +29,7 @@
             padding: 20px;
             margin-right: 50px;
             border-radius: 10px;
+            background-color: #E1E8ED;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             
             @include mobile{
@@ -91,6 +96,8 @@
             padding: 20px;
             margin-right: 50px;
             border-radius: 10px;
+            background-color: #E1E8ED;
+
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             @include mobile{
                 scrollbar-width: none; //for firefox
@@ -156,6 +163,8 @@
             padding: 20px;
             margin-right: 50px;
             border-radius: 10px;
+            background-color: #E1E8ED;
+
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             @include mobile{
                 scrollbar-width: none; //for firefox
